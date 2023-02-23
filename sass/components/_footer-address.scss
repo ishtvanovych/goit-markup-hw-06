@@ -1,0 +1,22 @@
+.footer__address {
+   font-style: normal;
+}
+
+.footer__address__item{
+   &:not(:last-child) {
+   margin-bottom: 9px;
+}
+}
+
+.footer__address__link {
+   color: var(--main-color);
+}
+
+.footer__mail__link,
+.footer__tel__link {
+   font-size: 14px;
+   line-height: calc(24 / 14);
+   letter-spacing: 0.03em;
+
+   color: rgba(255, 255, 255, 0.6);
+}

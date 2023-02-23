@@ -1,0 +1,19 @@
+.header__logo {
+   font-family: var(--second-font);
+   font-weight: 700;
+   font-size: 26px;
+   line-height: calc(31 / 26);
+   letter-spacing: 0.03em;
+
+   display: block;
+   margin-right: 93px;
+   padding: 24px 0;
+
+   &--first {
+   color: var(--accent-color);}
+
+   &--last {
+   color: var(--title-color);}
+}
+
+

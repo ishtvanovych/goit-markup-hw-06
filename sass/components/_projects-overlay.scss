@@ -1,0 +1,27 @@
+.projects__overlay{
+   &--visible {
+   position: relative;
+   overflow: hidden;
+}
+
+   &--covers {
+   position: absolute;
+   display: inline;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+
+   transform: translateY(100%);
+
+   transition: var(--cubic);
+}
+}
+
+.projects__item:hover .projects__overlay--covers {
+   background: rgba(33, 150, 243, 0.9);
+
+   transform: translateY(0);
+
+   transition: var(--cubic);
+}

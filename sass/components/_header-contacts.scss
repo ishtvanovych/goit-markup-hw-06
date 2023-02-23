@@ -1,0 +1,44 @@
+.header__contacts__list {
+   display: flex;
+   align-items: center;
+   margin-left: auto;
+}
+
+.header__contacts__item {
+   display: block;
+
+   &:not(:last-child) {
+   margin-right: 50px;
+
+   color: #757575;
+}
+}
+
+.header__contact__link {
+   font-weight: 500;
+   letter-spacing: 0.02em;
+
+   color: var(--description-color);
+
+   display: flex;
+   align-items: center;
+
+   padding: 32px 0;
+
+   &:hover,
+   &:focus {
+   color: var(--accent-color);
+
+   transition: var(--cubic);
+}
+}
+
+.header__contacts__icon {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   margin-right: 10px;
+
+   fill: currentColor;
+}
